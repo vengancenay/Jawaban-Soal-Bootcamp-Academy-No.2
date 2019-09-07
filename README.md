@@ -1,0 +1,2 @@
+# Jawaban-Soal-Bootcamp-Academy-No.2
+ 2.funtion is AcceptedUsername (username)  {  var regex= /^[a-z]{5,9}$/;  return regex.test (username); } // cara menggunakan fungsi diatas if (AcceptedUsername("asolele") ){     alert ("username is valid") ;}    else {     alert ("username is invalid"); }  funtion is Acceptedpassword (password) { var regex = /^[a-z][a-Z-O-9-$,]{1}{8}$/; return regex.test (password); } // cara menggunakan fungsi diatas if (AcceptedPassword("yU5Qmsf$") ) {     alert ("password is correct") :}     else {     alert ("password is incorect"); }
